@@ -35,6 +35,10 @@ api-lab
 
 ### Routes
 
+* show all routes
+
+> php bin/console debug:router
+
 [ GET ] /api/login_check
 * login user
 > curl -X POST http://localhost:8000/api/login_check -d username=testuser -d password=p@ssword
