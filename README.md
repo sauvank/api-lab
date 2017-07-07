@@ -7,7 +7,8 @@ A Symfony project created on July 7, 2017, 9:29 am.
 ## Sample Api symfony 3 with JWT
 
 ### Bundle
-    * <a href="https://symfony.com/doc/current/bundles/FOSRestBundle/1-setting_up_the_bundle.html">FOSRestBundle</a>
+
+    <a href="https://symfony.com/doc/current/bundles/FOSRestBundle/1-setting_up_the_bundle.html">FOSRestBundle</a>
     * NelmioCorsBundle
     * JMSSerializerBundle
     * LexikJWTAuthenticationBundle
