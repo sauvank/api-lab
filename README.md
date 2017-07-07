@@ -1,7 +1,7 @@
 api-lab
 =======
 
-A Symfony project created on July 7, 2017, 9:29 am.
+
 
 
 ## Sample Api symfony 3 with JWT
@@ -28,7 +28,7 @@ A Symfony project created on July 7, 2017, 9:29 am.
  * > php bin/console doctrine:generate:entities AppBundle
  * > php bin/console doctrine:generate:entities AppBundle
  * create user with FOSUserBundle :
-   > $ php bin/console fos:user:create testuser test@example.com p@ssword
+   >  php bin/console fos:user:create testuser test@example.com p@ssword
  * > php bin/console server:start
  * > curl -X POST http://localhost:8000/api/login_check -d username=testuser -d password=p@ssword
  * api return token object 
