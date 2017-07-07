@@ -33,3 +33,12 @@ api-lab
  * > curl -X POST http://localhost:8000/api/login_check -d username=testuser -d password=p@ssword
  * api return token object 
 
+### Routes
+
+[ GET ] /api/login_check
+* login user
+> curl -X POST http://localhost:8000/api/login_check -d username=testuser -d password=p@ssword
+
+[ POST ] /signup 
+* Create one user : api-lab/src/AppBundle/Controller/UsersController.php
+> curl -d '{"email":"value1@live.fr", "username":"value2", "plainPassword":{"first":"pass","second":"pass"}  }' -H "Content-Type: application/json" -X POST http://localhost:8000/signup
