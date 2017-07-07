@@ -21,6 +21,8 @@ A Symfony project created on July 7, 2017, 9:29 am.
  * > openssl genrsa -out var/jwt/private.pem -aes256 4096 # /!\ The password will be required when composer install
  * > openssl rsa -pubout -in var/jwt/private.pem -out var/jwt/public.pem
  * > composer install
+ * > php bin/console doctrine:generate:entities AppBundle
+ * > php bin/console doctrine:generate:entities AppBundle
  * create user with FOSUserBundle :
    > $ php bin/console fos:user:create testuser test@example.com p@ssword
  * > php bin/console server:start
