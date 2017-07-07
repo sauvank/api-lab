@@ -8,9 +8,13 @@ A Symfony project created on July 7, 2017, 9:29 am.
 
 ### Bundle
    > [FOSRestBundle](https://symfony.com/doc/current/bundles/FOSRestBundle/1-setting_up_the_bundle.html)
+   
    > [NelmioCorsBundle](https://github.com/nelmio/NelmioCorsBundle)
+   
    > [JMSSerializerBundle](http://jmsyst.com/bundles/JMSSerializerBundle)
+   
    > [LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle)
+   
    > [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle)
     
     
